@@ -1,13 +1,10 @@
+<div align="center">
+  <img src="w3bflix.jpg">
+</div>
+
 # W3BFLIX - Auto Claim Bot
 
-🔗 **Referral Link**: [W3BFLIX](https://t.me/W3BFLIXBot?start=ive00963bd08)
-
-## 📢 Telegram Group
-
-Join our Telegram group to stay updated and get instructions on how to use this tool:
-
-- [Smart Airdrop](https://t.me/smartairdrop2120)
-- [Smart Airdrop - Channel](https://t.me/smartairdrop_channel)
+🔗 **Link to join**: [W3BFLIX](https://t.me/W3BFLIXBot?start=iv6df07faf82)
 
 ## 🌟 Features
 
@@ -16,13 +13,28 @@ Join our Telegram group to stay updated and get instructions on how to use this 
 | Auto Claim Daily Lucky Draw | Default | Claim Daily Lucky Draw               |
 | Auto Watch Video            | Default | Watch videos and give you claim code |
 
-## 🚀 Run File
+## Installation
 
-| Run with Proxy      | Run without Proxy   |
-| ------------------- | ------------------- |
-| `Not supported yet` | `bot.py` `data.txt` |
+Clone repository and change directory 
 
-## ⚠️ Note
+```
+git clone https://github.com/zyz-airdrops/w3bflix-claimer.git
+```
+```
+cd w3bflix-claimer
+```
+Install the required libraries:
 
-- Get auth data (`query_id=...` /`user=...`) in the Application tab in DevTools. If it is hard to get auth data, you can use `Telegram Bypass by BrewVN` extension by typing `#bypass` command in Telegram Group
-- Supported commands: `/run_bot` `#bypass` (Join group to use these commands).
+```
+ python -m pip install -r requirements.txt
+```
+Add your query id to the file:
+```
+nano data.txt
+```
+
+## Run File
+
+| Run with Proxy                   | Run without Proxy   |
+| -------------------------------- | ------------------- |
+| `bot-proxy.py` | `bot.py`|
